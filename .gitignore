@@ -1,0 +1,14 @@
+# Virtual environment (recreated from requirements.txt)
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large files: trained models
+models/
+
+# OS / editor clutter
+.DS_Store
+.vscode/
