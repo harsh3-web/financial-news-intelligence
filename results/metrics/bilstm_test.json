@@ -1,0 +1,39 @@
+{
+  "model": "bilstm",
+  "split": "test",
+  "accuracy": 0.8028,
+  "macro_f1": 0.7448,
+  "per_class": {
+    "negative": {
+      "precision": 0.7857142857142857,
+      "recall": 0.559322033898305,
+      "f1-score": 0.6534653465346535,
+      "support": 59.0
+    },
+    "neutral": {
+      "precision": 0.9214285714285714,
+      "recall": 0.8431372549019608,
+      "f1-score": 0.8805460750853242,
+      "support": 306.0
+    },
+    "positive": {
+      "precision": 0.611764705882353,
+      "recall": 0.8188976377952756,
+      "f1-score": 0.7003367003367004,
+      "support": 127.0
+    },
+    "accuracy": 0.8028455284552846,
+    "macro avg": {
+      "precision": 0.77296918767507,
+      "recall": 0.7404523088651804,
+      "f1-score": 0.7447827073188926,
+      "support": 492.0
+    },
+    "weighted avg": {
+      "precision": 0.825220332035253,
+      "recall": 0.8028455284552846,
+      "f1-score": 0.8067973889520624,
+      "support": 492.0
+    }
+  }
+}

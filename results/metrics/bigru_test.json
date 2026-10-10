@@ -1,0 +1,39 @@
+{
+  "model": "bigru",
+  "split": "test",
+  "accuracy": 0.8252,
+  "macro_f1": 0.7414,
+  "per_class": {
+    "negative": {
+      "precision": 0.8709677419354839,
+      "recall": 0.4576271186440678,
+      "f1-score": 0.6,
+      "support": 59.0
+    },
+    "neutral": {
+      "precision": 0.8892405063291139,
+      "recall": 0.9183006535947712,
+      "f1-score": 0.9035369774919614,
+      "support": 306.0
+    },
+    "positive": {
+      "precision": 0.6758620689655173,
+      "recall": 0.7716535433070866,
+      "f1-score": 0.7205882352941176,
+      "support": 127.0
+    },
+    "accuracy": 0.8252032520325203,
+    "macro avg": {
+      "precision": 0.812023439076705,
+      "recall": 0.7158604385153086,
+      "f1-score": 0.7413750709286929,
+      "support": 492.0
+    },
+    "weighted avg": {
+      "precision": 0.8319698668079737,
+      "recall": 0.8252032520325203,
+      "f1-score": 0.8199126442985631,
+      "support": 492.0
+    }
+  }
+}
