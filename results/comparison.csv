@@ -1,0 +1,6 @@
+model,test_macro_f1,params,median_ms,p95_ms,median_ms_compiled
+tfidf_lr,0.8059,19887,0.51,0.67,
+simple_rnn,0.5776,501123,93.98,119.3,5.03
+bilstm,0.7448,559107,261.42,329.67,5.81
+bigru,0.7414,542979,332.27,375.4,5.91
+finbert,0.9249,109754115,93.5,136.42,
