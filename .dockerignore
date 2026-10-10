@@ -1,0 +1,8 @@
+.venv
+.venv-*
+.git
+data
+notebooks
+results
+models/*.keras
+models/*.joblib
