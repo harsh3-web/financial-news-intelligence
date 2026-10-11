@@ -6,6 +6,8 @@ Given one sentence of financial news, the system says whether it is **positive, 
 
 > "Operating profit rose to EUR 13.1 mn from EUR 8.7 mn." → **positive** (0.999)
 
+**Live demo:** [financial-news-intelligence-mddmyhxnhiw84votwdryms.streamlit.app](https://financial-news-intelligence-mddmyhxnhiw84votwdryms.streamlit.app/) · **Model:** [harshsharma26/finbert-financial-sentiment](https://huggingface.co/harshsharma26/finbert-financial-sentiment)
+
 ---
 
 ## Results
