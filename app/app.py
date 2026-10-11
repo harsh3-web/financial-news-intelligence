@@ -8,6 +8,7 @@ sys.path.append(str(ROOT))
 from src.data_utils import normalize_numbers          # same cleaning as training
 
 MODELS = ROOT / "models"
+FINBERT = MODELS / "finbert" if (MODELS / "finbert").exists() else "harshsharma26/finbert-financial-sentiment"
 LABELS = ["negative", "neutral", "positive"]
 ICON = {"negative": "🔴", "neutral": "⚪", "positive": "🟢"}
 EXAMPLES = [
@@ -21,8 +22,8 @@ st.set_page_config(page_title="Financial News Sentiment", page_icon="📈", layo
 
 @st.cache_resource
 def load_models():
-    tok = BertTokenizer.from_pretrained(MODELS / "finbert")
-    fb = BertForSequenceClassification.from_pretrained(MODELS / "finbert").eval()
+    tok = BertTokenizer.from_pretrained(FINBERT)
+    fb = BertForSequenceClassification.from_pretrained(FINBERT).eval()
     vec = joblib.load(MODELS / "tfidf_vectorizer.joblib")
     lr = joblib.load(MODELS / "tfidf_lr.joblib")
     return tok, fb, vec, lr
